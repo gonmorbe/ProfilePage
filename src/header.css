@@ -1,0 +1,39 @@
+
+
+
+.Header {
+    min-height: 60px;
+    display: flex;
+    background-color: #5c0794;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+}
+
+.Header__menu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.si{
+    color: rgb(248, 248, 248);
+    text-decoration: 0;
+    font-size: 60px;
+
+  
+}
+
+.Header .Header__nav a {
+    text-decoration: 0;
+    color: rgb(255, 255, 255);
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+.Header .Header__nav a :hover {
+    transition: 150ms;
+    border:2px solid #000;
+}
